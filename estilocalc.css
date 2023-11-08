@@ -1,0 +1,49 @@
+/* colocar tipografia */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    text-align: center;
+    background-color: #ccc;
+    width: 20%;
+    padding: 40px;
+    border-radius: 8px;
+    
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+   }
+   
+   button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+   }
+
+/* button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: yellowgreen;
+} */
+
+#result {
+    padding: 10px;
+    margin: 5px;
+}
